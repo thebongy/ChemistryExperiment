@@ -1,0 +1,104 @@
+\documentclass[12pt, twoside]{report}
+\usepackage[a4paper,width=160mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{gensymb}
+\usepackage{array}
+\usepackage[version=4]{mhchem}
+
+\renewcommand*\contentsname{Index}
+\renewcommand*\thesection{\arabic{section}}
+
+\numberwithin{equation}{section}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\titleformat{\chapter}[block]{\normalfont\bfseries\Large}{}{0pt}{
+    \rule{\textwidth}{1pt}
+    \vspace{1ex}
+    \ifnum\value{chapter}>0\relax\thechapter.~~\fi
+    \centering
+}
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+]
+
+
+
+\graphicspath{ {images/} }
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[LO]{\rightmark}
+
+\begin{document}
+
+\begin{titlepage}
+  
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+\vspace*{3cm} 
+
+\textsc{\LARGE Chemistry Experiment Project}\\[1.5cm]
+\textsc{\Large Class XII A}\\[0.5cm]
+\textsc{\large 2017-18}\\[0.5cm]
+
+
+\HRule \\[0.4cm]
+{ \LARGE \bfseries Enthalpy of Formation of Magnesium Oxide}\\[0.4cm]
+\HRule \\[1.5cm]
+ 
+
+\Large \emph{Conducted by:}\\
+\large Rishit \textsc{Bansal 34}\\
+\large Apurva \textsc{Kulkarni 5}\\[2cm]
+
+\includegraphics[width=7cm]{title}
+\vfill
+
+\end{titlepage}
+\cleardoublepage
+\chapter{Acknowledgements}
+\input{chapters/Acknowledgements}
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+\chapter{Introduction}
+\input{chapters/Introduction}
+\cleartoleftpage
+\vspace*{6cm}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=10cm]{fig1}
+    \end{center}
+  \caption*{Fig.1 Hess's Law}
+ \end{figure}
+\cleardoublepage
+\chapter{Experimental details}
+\section{Enthalpy of formation of Magnesium Oxide}
+\input{chapters/Experiment1.tex}
+
+\cleardoublepage
+\chapter{Conclusion}
+\input{chapters/Conclusion}
+\section{Bibliography}
+\input{chapters/Bibliography}
+\end{document}
