@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  28 MAY 2017 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  24 AUG 2017 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,7 +781,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 4.
-(./chapters/Conclusion.tex) (./chapters/Bibliography.tex
+(./chapters/Conclusion.tex) [19
+
+] [20
+
+]
+Chapter 5.
+(./chapters/Bibliography.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -789,15 +795,15 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-) [19
+) [21
 
 ]
 (./experiment.aux) ) 
 Here is how much of TeX's memory you used:
- 13845 strings out of 494953
- 258141 string characters out of 6180977
+ 13844 strings out of 494953
+ 258129 string characters out of 6180977
  318542 words of memory out of 5000000
- 16972 multiletter control sequences out of 15000+600000
+ 16971 multiletter control sequences out of 15000+600000
  14769 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  43i,18n,49p,10359b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -810,10 +816,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on experiment.pdf (19 pages, 171428 bytes).
+Output written on experiment.pdf (21 pages, 171938 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
